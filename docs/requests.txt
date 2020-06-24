@@ -1,4 +1,8 @@
-Request to find videos by KEYWORD:
+1) Request to find videos by KEYWORD:
 curl GET 'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=KEYWORD&type=video&key=API_KEY'
+2) Most popular videos:
+curl GET 'https://www.googleapis.com/youtube/v3/videos?part=contentDetails&chart=mostPopular&regionCode=RU&maxResults=25&key=API_KEY'
+3) Caption
+curl GET 'https://www.googleapis.com/youtube/v3/captions/{captionId}?key=API_KEY'
 
 API_KEY is also required.
