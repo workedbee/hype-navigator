@@ -11,7 +11,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring.boot.version>2.1.3.RELEASE</spring.boot.version>
+        <spring.boot.version>2.7.18</spring.boot.version>
         <spring.elasticsearch.version>3.1.5.RELEASE</spring.elasticsearch.version>
     </properties>
 
